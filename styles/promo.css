@@ -1,0 +1,40 @@
+.promo {
+  background-color: #f1f2f4;
+  min-height: 620px;
+}
+
+.promo-wrapper {
+  display: flex;
+}
+
+.promo-text-column {
+  box-sizing: border-box;
+  width: 520px;
+  padding-left: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.promo-title {
+  margin-top: 10px;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.promo-text {
+  margin: 0 0 40px 0;
+  font-family: "Anton", sans-serif;
+  font-size: 128px;
+  line-height: 120px;
+  text-transform: uppercase;
+}
+
+.promo .button {
+  align-self: flex-start;
+}
+
+.promo-img-column {
+  width: 430px;
+  padding: 50px;
+}

@@ -1,9 +1,52 @@
-*, *::after, *::before {
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+/* Variables */
+:root {
+  --main-font-color: #151c22;
+  --main-dark-color: #151c22;
 }
+
+/* Fonts */
+/* *,
+*::after,
+*::before {
+  box-sizing: border-box;
+} */
 
 body {
-    margin: 0;
+  margin: 0;
+  min-width: 1366px;
+  min-height: 2918px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--main-font-color);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.visually-hidden {
+  position: absolute;
+  clip: rect(1, 1, 1, 1);
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.button {
+  padding: 24px 24px;
+  background-color: var(--main-dark-color);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
