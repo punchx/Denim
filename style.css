@@ -1,3 +1,7 @@
 @import "./styles/general.css";
 @import "./styles/header.css";
 @import "./styles/promo.css";
+@import "./styles/bestsellers.css";
+@import "./styles/news.css";
+@import "./styles/categories.css";
+@import "./styles/footer.css";

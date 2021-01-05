@@ -17,7 +17,6 @@
 body {
   margin: 0;
   min-width: 1366px;
-  min-height: 2918px;
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -43,10 +42,40 @@ body {
 }
 
 .button {
+  display: inline-block;
   padding: 24px 24px;
   background-color: var(--main-dark-color);
   color: white;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
+}
+
+.section-header {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.show-more {
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+
+.show-more::after {
+  content: "";
+  display: block;
+  width: 110%;
+  height: 2px;
+  position: relative;
+  top: 2px;
+  left: -5%;
+  background-color: var(--main-dark-color);
 }
